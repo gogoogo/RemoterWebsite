@@ -94,11 +94,11 @@ a {
   margin-left: auto;
   margin-right: auto;
   font-family: "Microsoft YaHei" 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  position: relative;
 }
 .header {
   position: relative;
   height: 74px;
-  background: url("../img/header.png");
   background-size: contain;
 }
 .language-switch {
@@ -120,25 +120,28 @@ a {
 .download {
   position: relative;
   height: 462px;
-  background: url("../img/download_en.png");
   background-size: contain;
 }
 
-.download .app-store {
+.app-store {
   position: absolute;
   display: block;
   width: 100px;
   height: 30px;
-  top: 157px;
+  top: 232px;
   left: 340px;
+  background: url("../img/app_store.png");
+  background-size:contain;
 }
-.download .free-down {
+.free-down {
   position: absolute;
   display: block;
   width: 145px;
-  height: 25px;
+  height: 26px;
   bottom: 84px;
   right: 157px;
+  background: url("../img/free_download.png");
+  background-size: cover;
 }
 .use-wrap {
   height: 455px;
@@ -152,21 +155,19 @@ a {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
-  background: url("../img/use_en.png");
   background-size: contain;
 }
 .set {
   position: relative;
   height: 439px;
-  background: url("../img/set_en.png");
   background-size: contain;
 }
-.set .mail-me {
+.mail-me {
   position: absolute;
   display: block;
   width: 22px;
   height: 12px;
-  bottom: 27px;
+  bottom: 69px;
   right: 410px;
 }
 .footer {

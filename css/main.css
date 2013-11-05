@@ -118,7 +118,6 @@ a{
 .header{
     position: relative;
     height: 74px;
-    background: url("../img/header.png");
 }
 
 .language-switch{
